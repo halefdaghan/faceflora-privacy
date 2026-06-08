@@ -1,1 +1,231 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Face Flora mobil uygulaması için gizlilik politikası (KVKK & GDPR uyumlu)">
+  <title>Face Flora — Gizlilik Politikası</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.7;
+      color: #2d2d2d;
+      background: linear-gradient(135deg, #fef4f7 0%, #fff8f1 100%);
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 32px rgba(220, 100, 130, 0.08);
+    }
+    header {
+      text-align: center;
+      padding-bottom: 24px;
+      border-bottom: 2px solid #fce4ec;
+      margin-bottom: 32px;
+    }
+    h1 {
+      color: #d6336c;
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: #888;
+      font-size: 14px;
+    }
+    h2 {
+      color: #d6336c;
+      font-size: 20px;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      padding-left: 12px;
+      border-left: 4px solid #ff8fab;
+    }
+    h3 {
+      color: #555;
+      font-size: 16px;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+    p, li { margin-bottom: 10px; font-size: 15px; }
+    ul, ol { margin: 8px 0 16px 24px; }
+    strong { color: #d6336c; }
+    .warning {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin: 12px 0;
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid #f0e0e6;
+    }
+    th { background: #fce4ec; color: #d6336c; }
+    tr:hover { background: #fef8fa; }
+    a {
+      color: #d6336c;
+      text-decoration: none;
+      border-bottom: 1px dotted #d6336c;
+    }
+    a:hover { color: #b02a59; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #fce4ec;
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 24px 20px; }
+      h1 { font-size: 22px; }
+      h2 { font-size: 17px; }
+      th, td { padding: 8px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌸 Face Flora — Gizlilik Politikası</h1>
+      <p class="meta">Son güncelleme: 13 Mayıs 2026 · Geliştirici: Halef Dağhan</p>
+    </header>
+
+    <h2>1. Giriş</h2>
+    <p>Face Flora ("biz", "uygulama") olarak, kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası, uygulamamızı kullanırken hangi bilgileri topladığımızı, bunları nasıl kullandığımızı, sakladığımızı ve koruduğumuzu açıklar.</p>
+    <p>Face Flora; regl takibi, kadın sağlığı, su tüketim takibi, ürün barkod tarama ve günlük motivasyon özellikleri sunan bir mobil sağlık uygulamasıdır.</p>
+
+    <h2>2. Topladığımız Bilgiler</h2>
+    <h3>2.1 Hesap Bilgileri</h3>
+    <ul>
+      <li>E-posta adresi</li>
+      <li>Ad / kullanıcı adı</li>
+      <li>Şifre (bcrypt ile şifrelenmiş, ham olarak SAKLANMAZ)</li>
+      <li>Profil fotoğrafı (Google ile giriş yaptıysanız)</li>
+    </ul>
+
+    <h3>2.2 Sağlık ve Döngü Verileri (Hassas Veri)</h3>
+    <ul>
+      <li>Regl başlangıç ve bitiş tarihleri</li>
+      <li>Akış yoğunluğu (hafif/orta/yoğun)</li>
+      <li>Semptomlar (kramp, baş ağrısı, şişkinlik vb.)</li>
+      <li>Ruh hali kayıtları</li>
+      <li>Kişisel notlar</li>
+      <li>Günlük su tüketim miktarı</li>
+    </ul>
+    <div class="warning">⚠️ Bu bilgiler "özel kategorideki kişisel veriler" (KVKK madde 6) ve "sağlık bilgisi" (GDPR Art. 9) olarak sınıflandırılır.</div>
+
+    <h3>2.3 Ürün Tarama Verileri</h3>
+    <ul>
+      <li>Taradığınız ürünlerin barkodları</li>
+      <li>Tarama geçmişi ve favoriler</li>
+    </ul>
+
+    <h3>2.4 Otomatik Toplanan Veriler</h3>
+    <ul>
+      <li>Cihaz türü ve işletim sistemi</li>
+      <li>Uygulama versiyonu</li>
+      <li>Dil tercihi (TR/EN/DE)</li>
+      <li>Çökme raporları (sadece anonim)</li>
+    </ul>
+
+    <h3>2.5 Bağış Bilgileri</h3>
+    <ul>
+      <li>Bağış miktarı ve para birimi</li>
+      <li>Bağış tarihi</li>
+    </ul>
+    <div class="warning">⚠️ Kredi kartı veya banka bilgileriniz <strong>tarafımızca SAKLANMAZ</strong> — tüm ödemeler PayPal tarafından işlenir.</div>
+
+    <h2>3. Bilgilerin Kullanımı</h2>
+    <p>Topladığımız bilgileri yalnızca şu amaçlarla kullanırız:</p>
+    <ul>
+      <li>Hesabınızı oluşturmak ve yönetmek</li>
+      <li>Regl tahmini ve döngü fazı analizi yapmak</li>
+      <li>Kişiselleştirilmiş AI motivasyon mesajları üretmek (Claude Sonnet 4.5)</li>
+      <li>Su tüketim hatırlatıcıları göndermek</li>
+      <li>Ürün sağlık skorunu hesaplamak</li>
+      <li>Uygulama performansını iyileştirmek</li>
+      <li>Yasal yükümlülükleri yerine getirmek</li>
+    </ul>
+
+    <h2>4. Üçüncü Taraf Servisleri</h2>
+    <table>
+      <thead>
+        <tr><th>Servis</th><th>Amaç</th><th>Veri Paylaşımı</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>MongoDB Atlas</strong></td><td>Veritabanı barındırma</td><td>Tüm hesap ve sağlık verileri</td></tr>
+        <tr><td><strong>Anthropic (Claude)</strong></td><td>AI motivasyon üretimi</td><td>Sadece döngü fazı + tarih</td></tr>
+        <tr><td><strong>Open Food Facts</strong></td><td>Ürün veri tabanı</td><td>Sadece barkod numarası</td></tr>
+        <tr><td><strong>Open Beauty Facts</strong></td><td>Kozmetik veri tabanı</td><td>Sadece barkod numarası</td></tr>
+        <tr><td><strong>PayPal</strong></td><td>Ödeme/bağış işleme</td><td>Sadece bağış miktarı</td></tr>
+        <tr><td><strong>Google OAuth</strong></td><td>Sosyal giriş</td><td>E-posta, ad, profil fotoğrafı</td></tr>
+      </tbody>
+    </table>
+
+    <h2>5. Verilerin Saklanma Süresi</h2>
+    <ul>
+      <li><strong>Aktif hesap:</strong> Hesabınız aktif olduğu sürece saklanır</li>
+      <li><strong>Hesap silme talebi:</strong> 30 gün içinde tüm verileriniz silinir</li>
+      <li><strong>Çökme raporları:</strong> Anonimleştirilmiş halde 90 gün saklanır</li>
+      <li><strong>Bağış kayıtları:</strong> Yasal zorunluluk gereği 10 yıl saklanır</li>
+    </ul>
+
+    <h2>6. Verilerinizin Güvenliği</h2>
+    <ul>
+      <li>Tüm veriler <strong>HTTPS (TLS 1.3)</strong> ile şifreli iletilir</li>
+      <li>Şifreler <strong>bcrypt</strong> ile özetlenir, hiçbir zaman düz metin saklanmaz</li>
+      <li>JWT tokenları 30 gün geçerlilik süresi ile yönetilir</li>
+      <li>Veritabanı erişimi yalnızca yetkilendirilmiş sunuculardan</li>
+      <li>Düzenli güvenlik denetimleri yapılır</li>
+    </ul>
+
+    <h2>7. Kullanıcı Hakları (KVKK & GDPR)</h2>
+    <p>Kullanıcı olarak şu haklara sahipsiniz:</p>
+    <ol>
+      <li><strong>Erişim hakkı</strong> — Sakladığımız verilerin kopyasını alma</li>
+      <li><strong>Düzeltme hakkı</strong> — Yanlış verileri düzeltme talebi</li>
+      <li><strong>Silme hakkı (Unutulma)</strong> — Tüm verilerinizin silinmesini talep etme</li>
+      <li><strong>İtiraz hakkı</strong> — Veri işlemeye karşı çıkma</li>
+      <li><strong>Veri taşınabilirliği</strong> — Verilerinizi JSON formatında dışa aktarma</li>
+      <li><strong>Şikayet hakkı</strong> — Veri Koruma Kuruluna başvurma (KVK: kvkk.gov.tr)</li>
+    </ol>
+    <p>Talepleriniz için: <a href="mailto:halefdaghan@hotmail.com">halefdaghan@hotmail.com</a></p>
+
+    <h2>8. Çocukların Gizliliği</h2>
+    <p>Face Flora <strong>13 yaş ve üstü</strong> kullanıcılar içindir. 13 yaşın altındaki çocuklardan bilerek veri toplamayız. 12+ yaş işareti ile mağazalarda listelenmiştir.</p>
+
+    <h2>9. Çerezler ve Yerel Depolama</h2>
+    <p>Web önizleme: localStorage'da yalnızca oturum tokenı saklanır.<br>
+    Mobil uygulama: SecureStore içerisinde oturum tokenı şifreli olarak saklanır.</p>
+
+    <h2>10. Politika Değişiklikleri</h2>
+    <p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde uygulama içi bildirim ile sizi bilgilendiririz. Son güncelleme tarihi sayfa başında görülmektedir.</p>
+
+    <h2>11. İletişim</h2>
+    <ul>
+      <li><strong>E-posta:</strong> <a href="mailto:halefdaghan@hotmail.com">halefdaghan@hotmail.com</a></li>
+      <li><strong>Konum:</strong> Türkiye</li>
+    </ul>
+
+    <footer>
+      Bu gizlilik politikası KVKK (6698 sayılı), GDPR (AB 2016/679) ve Apple/Google mağaza yönergelerine uygun olarak hazırlanmıştır.
+    </footer>
+  </div>
+</body>
+</html>
 
